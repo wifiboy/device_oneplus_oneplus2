@@ -72,6 +72,17 @@ TARGET_KERNEL_CONFIG := cm_oneplus2_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_USES_UNCOMPRESSED_KERNEL := true
 
+# Kernel Toolchain
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-4.9-kernel/bin
+KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
+
+# Optimizations
+STRICT_ALIASING := false
+CLANG_O3 := true
+ENABLE_GCCONLY := true
+GRAPHITE_OPTS := false
+USE_PIPE := true
+
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
 
@@ -104,6 +115,9 @@ BOARD_HEALTHD_CUSTOM_CHARGER_RES := $(PLATFORM_PATH)/charger/images
 
 # Font
 EXTENDED_FONT_FOOTPRINT := true
+
+# Cpusets
+ENABLE_CPUSETS := true
 
 # GPS
 TARGET_NO_RPC := true
