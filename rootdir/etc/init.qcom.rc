@@ -120,6 +120,9 @@ on init
     chown root system /proc/touchpanel/flashlight_enable
     chmod 0660 /proc/touchpanel/flashlight_enable
 
+    chown root system /proc/touchpanel/keypad_enable
+    chmod 0660 /proc/touchpanel/keypad_enable
+
     # Buttons
     chown root system /proc/s1302/key_rep
     chmod 0660 /proc/s1302/key_rep

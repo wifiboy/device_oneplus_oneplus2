@@ -38,7 +38,7 @@ public class KeyDisabler {
     }
 
     public static boolean isActive() {
-        return (FileUtils.readOneLine(CONTROL_PATH).contains(":0"));
+        return (FileUtils.readOneLine(CONTROL_PATH) != null) ? (FileUtils.readOneLine(CONTROL_PATH).equals("0")) : false;
     }
 
     public static boolean setActive(boolean state) {
