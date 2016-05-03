@@ -80,10 +80,10 @@ ENABLE_GOMP := true
 
 # Optimizations
 STRICT_ALIASING := false
-CLANG_O3 := false
+CLANG_O3 := true
 ENABLE_GCCONLY := false
 GRAPHITE_OPTS := false
-USE_PIPE := false
+USE_PIPE := true
 CORTEX_TUNINGS := false
 ENABLE_SANITIZE := false
 
