@@ -281,5 +281,9 @@ PRODUCT_PACKAGES += \
     hostapd.accept \
     hostapd.deny
 
+# Doze
+PRODUCT_PACKAGES += \
+    OnePlusDoze
+
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
