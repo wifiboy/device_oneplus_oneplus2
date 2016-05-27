@@ -266,9 +266,11 @@ PRODUCT_PACKAGES += \
     hostapd.accept \
     hostapd.deny
 
-# Doze
+# Additions
 PRODUCT_PACKAGES += \
-    OnePlusDoze
+    OnePlusDoze \
+    ForceDoze \
+    KernelAdiutor
 
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
