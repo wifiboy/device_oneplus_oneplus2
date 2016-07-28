@@ -104,7 +104,8 @@ PRODUCT_PACKAGES += \
 
  # Camera
  PRODUCT_PACKAGES += \
-    sensors.hal.tof
+    sensors.hal.tof \
+    Snap
 
 # Charger
 PRODUCT_PACKAGES += \
