@@ -8,3 +8,6 @@ allow system_app dpmd_data_file:dir { search write add_name };
 allow system_app dpmd_data_file:file create;
 
 dontaudit system_app netd_service:service_manager find;
+
+allow system_app sysfs_fpc_proximity:file rw_file_perms;
+
