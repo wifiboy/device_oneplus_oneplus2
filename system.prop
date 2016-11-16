@@ -2,7 +2,7 @@
 
 # Device
 ro.build.product=OnePlus2
-ro.product.device=oneplus2
+ro.product.device=OnePlus2
 
 # Audio
 audio.offload.video=true
