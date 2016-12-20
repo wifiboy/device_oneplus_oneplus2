@@ -115,4 +115,16 @@ ro.sys.sdcardfs=true
 persist.timed.enable=true
 
 # Wifi
+<<<<<<< HEAD
 persist.data.iwlan.enable=true
+=======
+wifi.interface=wlan0
+
+# ADB at boot
+persist.service.adb.enable=1                                                    
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
+
+# Google assistant
+ro.opa.eligible_device=true
+
