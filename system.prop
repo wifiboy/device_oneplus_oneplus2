@@ -115,9 +115,9 @@ ro.sys.sdcardfs=true
 persist.timed.enable=true
 
 # Wifi
-<<<<<<< HEAD
+
 persist.data.iwlan.enable=true
-=======
+
 wifi.interface=wlan0
 
 # ADB at boot
