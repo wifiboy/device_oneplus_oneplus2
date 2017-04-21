@@ -425,8 +425,5 @@
 
     <!-- Enable blur support -->
     <!-- <bool name="config_uiBlurEnabled">true</bool> --> 
-	
-    <!-- call removeCient in cancelAuthentification after stop to
-         avoid 3s delay for certain fpc HALs -->
-    <bool name="config_fingerprintRemoveClientOnCancel">true</bool>
+
 </resources>
