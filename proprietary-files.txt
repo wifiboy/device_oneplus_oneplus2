@@ -54,7 +54,6 @@ vendor/lib/libaptXScheduler.so
 # Camera
 bin/mm-qcamera-app
 bin/mm-qcamera-daemon
-bin/secure_camera_sample_client
 framework/org.codeaurora.camera.jar
 lib/hw/camera.msm8994.so:lib/hw/camera.vendor.msm8994.so
 lib/libFNVfbEngineLib.so
@@ -611,6 +610,7 @@ vendor/lib/libimsmedia_jni.so
 vendor/lib/liblqe.so
 vendor/lib/libqcmaputils.so
 vendor/lib/libril-qc-qmi-1.so
-vendor/lib/libril-qc-radioconfig.so
 vendor/lib/libril-qcril-hook-oem.so
 vendor/lib64/libmm-disp-apis.so
+vendor/lib/libril-qc-radioconfig.so
+framework/QtiTelephonyServicelibrary.jar
