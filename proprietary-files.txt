@@ -47,10 +47,15 @@ etc/firmware/rampatch_tlv_3.0.tlv
 etc/firmware/rampatch_tlv_3.2.tlv
 vendor/lib/libbtnv.so
 vendor/lib64/libbtnv.so
+vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so
+vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so
+vendor/lib/libaptXScheduler.so
 
 # Camera
 bin/mm-qcamera-app
 bin/mm-qcamera-daemon
+bin/secure_camera_sample_client
+framework/org.codeaurora.camera.jar
 lib/hw/camera.msm8994.so:lib/hw/camera.vendor.msm8994.so
 lib/libFNVfbEngineLib.so
 lib/libmm-qcamera.so
@@ -59,6 +64,7 @@ lib/libmmjpeg_interface.so
 lib/libmorpho_video_refiner.so
 lib/libopcamerahw_interface.so
 lib/libqomx_core.so
+lib/libopcamera.so
 lib64/libopcamera.so
 lib64/libopcameralib.so
 vendor/lib/libfastcvadsp_stub.so
@@ -103,6 +109,7 @@ vendor/lib/liboemcamera.so
 vendor/lib/libois_rohm_bu63165gwl.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc_pipe.so
+vendor/lib/libimscamera_jni.so
 vendor/lib64/libmmcamera2_q3a_core.so
 vendor/lib64/libmmcamera2_sensor_debug.so
 vendor/lib64/libmmcamera2_stats_algorithm.so
@@ -157,6 +164,7 @@ etc/firmware/cpp_firmware_v1_6_0.fw
 etc/firmware/cpp_firmware_v1_8_0.fw
 
 # Camera sensors
+vendor/lib/lib-imscamera.so
 vendor/lib/libmmcamera_isp_abf44.so
 vendor/lib/libmmcamera_isp_bcc44.so
 vendor/lib/libmmcamera_isp_be_stats44.so
@@ -594,3 +602,15 @@ vendor/lib/mediadrm/libwvdrmengine.so
 bin/cnss-daemon
 bin/cnss_diag
 -lib64/libwpa_qmi_eap_proxy.so
+
+#Others
+lib/libopbaselib.so
+lib64/libopbaselib.so
+vendor/lib/libaudcal.so
+vendor/lib/libimsmedia_jni.so
+vendor/lib/liblqe.so
+vendor/lib/libqcmaputils.so
+vendor/lib/libril-qc-qmi-1.so
+vendor/lib/libril-qc-radioconfig.so
+vendor/lib/libril-qcril-hook-oem.so
+vendor/lib64/libmm-disp-apis.so
