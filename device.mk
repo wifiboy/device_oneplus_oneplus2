@@ -266,6 +266,22 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.0-impl \
     power.msm8994
 
+# Prebuilts
+PRODUCT_PACKAGES += \
+    OnePlusCamera \
+    OnePlusCameraService 
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilts/lib/libfilter-sdk.so:system/lib/libfilter-sdk.so \
+    $(LOCAL_PATH)/prebuilts/lib/libopbaselib.so:system/lib/libopbaselib.so \
+    $(LOCAL_PATH)/prebuilts/lib/libopcamera.so:system/lib/libopcamera.so \
+    $(LOCAL_PATH)/prebuilts/lib/libopcameralib.so:system/lib/libopcameralib.so \
+    $(LOCAL_PATH)/prebuilts/lib64/libfilter-sdk.so:system/lib64/libfilter-sdk.so \
+    $(LOCAL_PATH)/prebuilts/lib64/libopbaselib.so:system/lib64/libopbaselib.so \
+    $(LOCAL_PATH)/prebuilts/lib64/libopcamera.so:system/lib64/libopcamera.so \
+    $(LOCAL_PATH)/prebuilts/lib64/libopcameralib.so:system/lib64/libopcameralib.so
+
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
