@@ -204,13 +204,7 @@ CONFIG_EAP_PROXY_AKA_PRIME := true
 CONFIG_EAP_PROXY_MSM8994_TARGET := true
 
 # Enable dexpreopt to speed boot time
-ifeq ($(HOST_OS),linux)
-  ifeq ($(call match-word-in-list,$(TARGET_BUILD_VARIANT),user),true)
-    ifeq ($(WITH_DEXPREOPT),)
-      WITH_DEXPREOPT := true
-    endif
-  endif
-endif
+WITH_DEXPREOPT := true
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/rootdir/etc/fstab.qcom
