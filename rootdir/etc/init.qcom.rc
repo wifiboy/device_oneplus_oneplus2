@@ -1033,3 +1033,6 @@ service msm_irqbalance /system/bin/msm_irqbalance -f /system/vendor/etc/msm_irqb
 service netmgrd /system/bin/sh /system/etc/netmgrd_control.sh
     class main
     writepid /dev/cpuset/system-background/tasks
+
+ #dt2w
+    write /proc/touchpanel/double_tap_enable 1
