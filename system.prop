@@ -30,6 +30,7 @@ qcom.bluetooth.soc=rome
 ro.bluetooth.a4wp=true
 ro.bluetooth.emb_wp_mode=true
 ro.bluetooth.wipower=true
+persist.bt.enableAptXHD=true
 
 # Camera
 camera.disable_zsl_mode=1
