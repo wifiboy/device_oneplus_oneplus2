@@ -156,7 +156,7 @@ PRODUCT_PACKAGES += \
 
 # Doze mode
 PRODUCT_PACKAGES += \
-    OneplusDoze
+    OnePlusDoze
 
 # Filesystem management tools
 PRODUCT_PACKAGES += \
